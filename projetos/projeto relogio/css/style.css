@@ -1,0 +1,58 @@
+@font-face {
+    font-family:Aligator;
+    src: url(../fonts/Aligator.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+     font-family:Aligator;
+}
+
+body{
+    background: linear-gradient(120deg, #4d4c49cd, #8534), url("https://w.wallha.com/ws/13/NMfeG6dH.jpg");
+    background-size:cover;
+    height: 100vh;
+    display: grid;
+
+}
+
+h1{
+    color: #fff;
+    text-shadow: 2px 2px blue;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+.relogio {
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 8px 10px #00000069;
+}
+
+.relogio div {
+    border: 2px solid rgba(174, 78, 9, 0.437);
+    width: 80%;display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; border-radius: 7px;letter-spacing: 4px;
+    background: #442b2b4b;
+    box-shadow: 5px 5px 1px #000000;
+    margin: 2%; padding: 3%;}
+
+   .relogio span {
+     font-weight: bolder;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.relogio span.tempo {font-size: 1rem;}
+
+@media (max-width: 500px) {
+    h1{font: size 2rem; top:3px;
+    
+    }
+}

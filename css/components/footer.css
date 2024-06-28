@@ -1,0 +1,46 @@
+footer {
+    background-color: var(--light-tertiary-color);
+  }
+  
+  footer .footer__content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+  }
+  
+  footer .footer__content .footer__contact span {
+    display: block;
+    font-weight: 500;
+  }
+  
+  footer .footer__content ul li {
+    display: inline-block;
+  }
+  
+  footer .footer__content ul a {
+    display: inline-block;
+    padding: 1rem;
+  }
+  
+  footer .footer__content .footer__copyright {
+    font-size: 1.4rem;
+  }
+
+    .mb-l img{
+    
+      width: 5rem;
+    }
+
+    footer {background: linear-gradient(#fbfbfb, #c2e9fba3, rgba(214, 5, 241, 0.435), rgba(48, 13, 224, 0.456));}
+   footer { 
+    background-image: url('https://miro.medium.com/v2/resize:fit:1358/1*FolbIxttpQXi5KzvAqPB_g.gif');
+    color: rgb(255, 255, 255); 
+    box-shadow: #00000072;
+    
+
+   
+  }
+
+  
+
+    

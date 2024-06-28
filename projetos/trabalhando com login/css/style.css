@@ -1,0 +1,183 @@
+ .home-btn {
+     background-image: linear-gradient(45deg, #e5cddaa9, #0a15ed5e, #9820e374);
+     background-size: 500% 100%;
+     animation: degrade-animado 2s infinite alternate;
+     color: var(--darkblue);
+ }
+
+ @keyframes degrade-animado {
+     0% {
+         background-position-x: 0%;
+     }
+
+     100% {
+         background-position-x: 100%;
+     }
+ }
+
+ :root {
+     --rosa: #F20587;
+     --roxo: #BF0436;
+     --azul: #020659;
+     --darkblue: #021F59;
+ }
+
+ /* RESET GERAL */
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     color: var(--rosa);
+     border: none;
+ }
+
+ body {
+     background: url("../images/cidade.gif") center no-repeat;
+     height: 100vh;
+     background-size: cover;
+     display: grid;
+     place-items: center;
+ }
+
+ input:focus {
+     outline: none;
+ }
+
+ a {
+     font-size: .8rem;
+ }
+
+ a:hover {
+     color: #08558b;
+ }
+
+ /* container-login */
+
+ #login-container {
+     background-color: #26af6fbc;
+     width: 25rem;
+     padding: 1.25rem 1.8rem;
+     border-radius: 10px;
+     text-align: center;
+ }
+
+ /* área do formulario */
+
+ label,
+ input {
+     display: block;
+     width: 100%;
+     text-align: left;
+ }
+
+ label {
+     font-weight: bold;
+     font-size: .8rem;
+ }
+
+ input {
+     border-bottom: 2px solid #323232;
+     padding: 10px;
+     font-size: 1rem;
+     margin-bottom: 20px;
+ }
+
+ input:focus {
+     border-bottom: 2px solid var(--roxo);
+ }
+
+ #forgot-pass {
+     display: block;
+     text-align: right;
+ }
+
+ input[type="submit"] {
+     background-color: #b6e7e457;
+     text-align: center;
+     color: #f3f1f1;
+     border: none;
+     height: 40px;
+     border-radius: 20px;
+     margin-top: 30px;
+     font-weight: bold;
+     cursor: pointer;
+     width: 40%;
+     margin: 30px auto 20px;
+     transition: width 1.5s;
+
+ }
+
+ input[type="submit"]:hover {
+     background-color: var(--rosa);
+     width: 100%;
+ }
+
+ /* SOCIAL CONTAINER */
+
+ #social-container,
+ #social-container p {
+     margin-bottom: 1.25rem;
+ }
+
+ #social-container i {
+     width: 2.5rem;
+     height: 2.5rem;
+     line-height: 2.5rem;
+     border-radius: 50%;
+     color: #fff;
+     font-size: 1.5rem;
+     cursor: pointer;
+     transition: all 1.5s;
+ }
+
+ .fa-facebook-f:hover {
+     background-color: #1f7bf2;
+     transform: scale(150%);
+
+ }
+
+ .fa-linkedin:hover {
+     background-color: #086b9c;
+     transform: scale(150%);
+
+ }
+
+ .fa-whatsapp:hover {
+     background: linear-gradient(to bottom, #5ff475, #38c33a);
+     transform: scale(150%);
+ }
+
+ .fa-instagram:hover {
+     background: linear-gradient(to bottom, #515bd4, #8134af, #dd2a7b, #feda77, #f58529);
+     transform: scale(150%);
+ }
+
+ .fa-twitter:hover {
+     background: linear-gradient(to bottom, #08a0e9, #e8f5fd, #0084b4);
+     transform: scale(150%);
+ }
+
+ .fa-telegram:hover {
+     background: linear-gradient(to bottom, #dfd8cb, #37afe2, #1b92d1, #c8d9ea, #ecf5fb);
+     transform: scale(150%);
+ }
+
+ h1 {
+     height: 5rem;
+ }
+
+#titulo-superior{
+    animation: degrade-animado 2s infinite alternate;;
+}
+
+ @keyframes text-animado {
+
+     50% {
+         color: red;
+     }
+
+     100% {
+         color: red;
+     }
+ }
